@@ -6,8 +6,8 @@ Suitable for starting Laravel projects with Docker.
 
 ### For first time only !
 
-- `git clone https://github.com/Gobozzz/laravel-starter.git`
-- `cd laravel-docker`
+- `git clone https://github.com/Gobozzz/laravel-starter.git laravel-starter-goboz` 
+- `cd laravel-starter-goboz`
 - `docker compose up -d --build`
 - `docker compose exec php bash`
 - `composer setup`
