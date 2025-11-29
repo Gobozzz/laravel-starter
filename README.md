@@ -16,6 +16,9 @@ Suitable for starting Laravel projects with Docker.
 
 `docker compose up -d`
 
+### env.example -> .env
+
+`cp .env.example .env`
 
 ### Laravel App
 - URL: http://localhost
