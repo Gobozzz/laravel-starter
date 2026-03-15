@@ -11,7 +11,6 @@ Suitable for starting Laravel projects with Docker.
 - `docker compose up -d --build`
 - `docker compose exec php bash`
 - `composer setup`
-- `php artisan migrate`
 
 ### From the second time onwards
 
