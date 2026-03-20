@@ -33,9 +33,11 @@ RUN pecl install pcov && docker-php-ext-enable pcov
 RUN docker-php-ext-install pcntl
 
 # Xdebug
-# RUN pecl install xdebug \
-# && docker-php-ext-enable xdebug \
-# && echo ";zend_extension=xdebug" > /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
+#RUN pecl install xdebug \
+#    && docker-php-ext-enable xdebug
+
+# Копируем конфигурацию Xdebug
+#COPY xdebug.ini /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
 
 # Node.js, NPM, Yarn
 RUN curl -sL https://deb.nodesource.com/setup_22.x | bash -
